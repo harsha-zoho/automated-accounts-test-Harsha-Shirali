@@ -30,13 +30,20 @@
   Stores metadata of uploaded receipt files.
 
 
->> id	
+>> id
+
 >> file_name	
+
 >> file_path	
+
 >> is_valid	
+
 >> invalid_reason	
+
 >> is_processed	
+
 >> created_at	
+
 >> updated_at	
 
   2. Receipt Table (receipt)
@@ -45,11 +52,17 @@
   stores additional information extracted from the receipts like transaction details, purchased items details, payment details and other information.
 
 >> id	
+
 >> purchased_at	
+
 >> merchant_name	
+
 >> total_amount	
+
 >> file_path	
+
 >> created_at	
+
 >> updated_at	
 
 APi's
